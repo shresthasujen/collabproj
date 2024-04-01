@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { FaBookReader, FaTruck } from "react-icons/fa";
 
+import logo from "../assets/img/11600074575 (2).png";
 function Drop() {
   return (
     <Navbar expand="lg" id="mobilenav">
@@ -18,22 +19,35 @@ function Drop() {
           href="#home"
           style={{ alignItems: "center", display: "flex" }}
         >
-          <a href="" class="navbar-brand  ">
-            <h1 class="m-0 text-primary">
-              <i class="fa fa-book-reader me-3">
-                <FaBookReader />
-              </i>
-              Preschool
-            </h1>
-          </a>
+          {/* Use Link instead of anchor tags */}
+          <Link to="/" className="navbar-brand d-flex">
+            <img src={logo} alt="" />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="/Blog">Blog</Nav.Link>
-
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Link to="/" className="nav-item nav-link">
+              Home
+            </Link>
+            <Link to="/Aboutus" className="nav-item nav-link">
+              About Us
+            </Link>
+            <Link to="/Programs" className="nav-item nav-link">
+              Programs
+            </Link>
+            <Link to="/Ourmissions" className="nav-item nav-link">
+              Our missions
+            </Link>
+            <Link to="/Testimonials" className="nav-item nav-link">
+              Testimonials
+            </Link>
+            <Link to="/Gallery" className="nav-item nav-link">
+              Gallery
+            </Link>
+            <Link to="/Contactus" className="nav-item nav-link">
+              Contact Us
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

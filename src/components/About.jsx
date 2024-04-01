@@ -1,4 +1,3 @@
-import React from "react";
 import about1 from "../assets/img/about-1.jpg";
 import about2 from "../assets/img/about-2.jpg";
 import about3 from "../assets/img/about-3.jpg";
@@ -14,20 +13,33 @@ const About = () => {
               Learn More About Our Work And Our Cultural Activities
             </h1>
             <p>
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              Welcome to our school's hub of academic excellence and cultural
+              vibrancy. Explore innovative teaching methods and research
+              projects that shape our students' intellectual journey, showcasing
+              our commitment to holistic education.
             </p>
             <p class="mb-4">
-              Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No
-              stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo
-              nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo
-              duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est
-              vero nonumy magna.
+              Step into the vibrant world of cultural activities defining our
+              school's identity. Engage with students' artistic expressions
+              across visual arts, music, literature, and more. These pursuits
+              enrich personal growth and contribute to our lively school
+              community.
             </p>
+            <p class="mb-4">
+              Navigate through this section to discover the heartbeat of our
+              institution, where academic achievements and cultural endeavors
+              converge. Whether you're a prospective student, proud parent, or
+              curious visitor, learn about the distinctive experiences that make
+              our school a nurturing space for growth.
+            </p>
+
             <div class="row g-4 align-items-center">
               <div class="col-sm-6">
-                <a class="btn rounded-pill py-3 px-5" id="gold" href="">
+                <a
+                  class="btn rounded-pill py-3 px-5 text-white"
+                  id="gold"
+                  href=""
+                >
                   Read More
                 </a>
               </div>

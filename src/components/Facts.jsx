@@ -20,9 +20,12 @@ const Facts = () => {
           >
             <h1 class="mb-3">School Facilities</h1>
             <p>
-              Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
-              dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed
-              rebum vero dolor duo.
+              At Kindergarten Preschool, we offer top-notch facilities to enrich
+              your child's learning journey. Our well-equipped classrooms, safe
+              play areas, and modern resources create an ideal environment for
+              exploration and growth. Discover the comfort and quality that
+              define our commitment to providing an excellent educational
+              experience at Kindergarten Preschool.
             </p>
           </div>
           <div class="row g-4">
@@ -116,7 +119,7 @@ const Facts = () => {
           </div>
         </div>
       </div>
-      <div class="container-xxl py-5">
+      {/* <div class="container-xxl py-5">
         <div class="container">
           <div class="bg-light rounded">
             <div class="row g-0">
@@ -153,7 +156,7 @@ const Facts = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

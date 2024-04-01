@@ -16,9 +16,12 @@ const Team = () => {
         >
           <h1 class="mb-3">Popular Teachers</h1>
           <p>
-            Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
-            lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum
-            vero dolor duo.
+            At Kindergarten Preschool, our popular teachers create a vibrant and
+            nurturing learning space. With creativity and dedication, they
+            inspire young minds, fostering curiosity and laying the foundation
+            for lifelong learning. Meet our exceptional educators who play a
+            pivotal role in shaping the educational journey of our youngest
+            learners
           </p>
         </div>
         <div class="row g-4">
@@ -26,8 +29,8 @@ const Team = () => {
             <div class="team-item position-relative">
               <img class="img-fluid rounded-circle w-75" src={team1} alt="" />
               <div class="team-text">
-                <h3>Full Name</h3>
-                <p>Designation</p>
+                <h3>Jenny Shrestha</h3>
+                <p>Computer Science</p>
                 <div class="d-flex align-items-center">
                   <a class="btn btn-square  mx-1" id="gold" href="">
                     <i class="fab fa-facebook-f">
@@ -52,8 +55,8 @@ const Team = () => {
             <div class="team-item position-relative">
               <img class="img-fluid rounded-circle w-75" src={team2} alt="" />
               <div class="team-text">
-                <h3>Full Name</h3>
-                <p>Designation</p>
+                <h3>Himesh Dangol</h3>
+                <p>Social Studies</p>
                 <div class="d-flex align-items-center">
                   <a class="btn btn-square  mx-1" id="gold" href="">
                     <i class="fab fa-facebook-f">
@@ -78,7 +81,7 @@ const Team = () => {
             <div class="team-item position-relative">
               <img class="img-fluid rounded-circle w-75" src={team3} alt="" />
               <div class="team-text">
-                <h3>Full Name</h3>
+                <h3>Ramita Shakya</h3>
                 <p>Designation</p>
                 <div class="d-flex align-items-center">
                   <a class="btn btn-square  mx-1" id="gold" href="">

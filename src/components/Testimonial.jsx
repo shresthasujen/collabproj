@@ -39,7 +39,7 @@ const Testimonial = () => {
                 style={{ width: "90px", height: "90px" }}
               />
               <div class="ps-3">
-                <h3 class="mb-1">Client Name</h3>
+                <h3 class="mb-1">Simran Shrestha</h3>
                 <span>Profession</span>
               </div>
               <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
@@ -61,7 +61,7 @@ const Testimonial = () => {
                 style={{ width: "90px", height: "90px" }}
               />
               <div class="ps-3">
-                <h3 class="mb-1">Client Name</h3>
+                <h3 class="mb-1">Avinab Dangol</h3>
                 <span>Profession</span>
               </div>
               <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>
@@ -83,7 +83,7 @@ const Testimonial = () => {
                 style={{ width: "90px", height: "90px" }}
               />
               <div class="ps-3">
-                <h3 class="mb-1">Client Name</h3>
+                <h3 class="mb-1">Javed Khan</h3>
                 <span>Profession</span>
               </div>
               <i class="fa fa-quote-right fa-3x text-primary ms-auto d-none d-sm-flex"></i>

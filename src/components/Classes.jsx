@@ -16,7 +16,7 @@ const Classes = () => {
           data-wow-delay="0.1s"
           style={{ maxWidth: "600px" }}
         >
-          <h1 class="mb-3">Popular right now</h1>
+          <h1 class="mb-3">Popular Pets now</h1>
           <p>
             Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
             lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum
